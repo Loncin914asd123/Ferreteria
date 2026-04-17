@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -33,6 +34,12 @@ export default function Home() {
             className="object-cover"
             priority
           />
+          <Link 
+            href="/herramientas" 
+            className="mt-2 bg-zinc-900 dark:bg-white dark:text-black text-white py-2 rounded-lg font-semibold text-center hover:bg-orange-600 dark:hover:bg-orange-500 dark:hover:text-white transition-colors"
+          >
+            Ver Catálogo
+          </Link>
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent flex items-center p-8">
             <h2 className="text-white text-3xl font-bold max-w-xs">
               Ofertas de la semana: ¡Pinturas con 20% de descuento!
