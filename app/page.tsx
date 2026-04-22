@@ -112,6 +112,12 @@ export default function Home() {
               Hablar al WhatsApp
             </a>
             <a
+              className="flex h-12 items-center justify-center gap-2 rounded-full bg-green-600 px-6 text-white font-bold transition-transform hover:scale-105"
+              href="/productos"
+            >
+              Ver CRUD Productos
+            </a>
+            <a
               className="flex h-12 items-center justify-center rounded-full border border-zinc-300 dark:border-zinc-700 px-6 transition-colors hover:bg-zinc-200 dark:hover:bg-zinc-800"
               href="#"
             >
